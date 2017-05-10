@@ -17,10 +17,15 @@ public class Main {
      */
     public static void main(String[] args) {
         Empleado empleado1 = new Empleado("1245678M","Perico de los Palotes");
-        
         empleado1.setDireccion("C/del Pez,6");
         empleado1.setNumHijos(3);
+        
+        Empleado empleado2 = new Empleado("77584362K","Fernando Sanchez");
+        empleado2.setDireccion("C/Mayor,18");
+        empleado2.setNumHijos(0);
+        
         imprimir_emp(empleado1);
+        imprimir_emp(empleado2);
     }
 
     public static void imprimir_emp(Empleado empleado1) {
